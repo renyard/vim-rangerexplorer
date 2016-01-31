@@ -1,0 +1,40 @@
+*rangerexplorer.txt* Use the ranger file manager as a file chooser in Vim
+
+Author: Ian Renyard <http://www.renyard.co.uk>
+Licence: MIT
+
+====================================================================
+CONTENTS                                    *RangerExplorerContents*
+
+    1. Intro ................ |RangerExplorerIntro|
+    2. Installation ......... |RangerExplorerInstallation|
+    3. Usage ................ |RangerExplorerUsage|
+
+====================================================================
+Intro                                          *RangerExplorerIntro*
+
+Vim Ranger Explorer enables the ranger file manager to be used as a
+file chooser from within Vim.
+
+This plugin is based on ranger's example code.
+
+====================================================================
+Installing ranger                        *RangerExplorerInstallation*
+
+Ranger can often be installed from the appropriate package manager:
+
+OS X (Home Brew): >
+  $ brew install ranger
+<
+Ubuntu: >
+  $ apt-get install ranger
+<
+====================================================================
+Usage                                          *RangerExplorerUsage*
+
+Use the `:RangerExplorer` command to invoke ranger as a file picker
+in the current working directory. Rather than using this command
+directly, you'll probably want to create a key mapping. e.g. To bind
+Ctrl-O add the following line to your `.vimrc`: >
+  noremap <C-o> :RangerExplorer<CR>
+<
