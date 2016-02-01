@@ -4,7 +4,7 @@
 " " Author:        Ian Renyard <http://www.renyard.co.uk>
 " =============================================================================
 
-function RangerExplorer()
+function! RangerExplorer()
     " Check that ranger is installed.
     let l:ranger = executable("ranger")
     echo l:ranger
