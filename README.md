@@ -31,14 +31,14 @@ Vim Ranger Explorer can be installed with [Vundle](https://github.com/gmarik/Vun
 
 Add the following line to your `.vimrc` and run `:PluginInstall`.
 ```VimL
-Plugin 'renyard/vim-ranger-explorer'
+Plugin 'renyard/vim-rangerexplorer'
 ```
 
 ### Pathogen
 
 Git clone the repo into your bundle directory:
 ```Shell
-$ git clone https://github.com/renyard/vim-ranger-explorer.git ~/.vim/bundle/vim-ranger-explorer
+$ git clone https://github.com/renyard/vim-rangerexplorer.git ~/.vim/bundle/vim-rangerexplorer
 ```
 
 ## Usage
